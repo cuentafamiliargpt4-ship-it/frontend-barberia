@@ -218,21 +218,21 @@ const ProfilePage: React.FC = () => {
                         <button
                             type="button"
                             className={`tab ${activeTab === 'data' ? 'active' : ''}`}
-                            onClick={() => setActiveTab('data')}
+                            onClick={() => goToTab('data')}
                         >
                             Datos
                         </button>
                         <button
                             type="button"
                             className={`tab ${activeTab === 'prefs' ? 'active' : ''}`}
-                            onClick={() => setActiveTab('prefs')}
+                            onClick={() => goToTab('prefs')}
                         >
                             Preferencias
                         </button>
                         <button
                             type="button"
                             className={`tab ${activeTab === 'security' ? 'active' : ''}`}
-                            onClick={() => setActiveTab('security')}
+                            onClick={() => goToTab('security')}
                         >
                             Seguridad
                         </button>
